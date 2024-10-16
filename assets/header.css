@@ -8,6 +8,10 @@
     margin-bottom: 2.5vh;
 }
 
+body {
+    z-index: 999;
+}
+
 header {
     z-index: 1000;
     background-color: aqua;
