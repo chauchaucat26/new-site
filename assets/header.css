@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+
+header {
+    background-color: aqua;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 17.5vh;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 3vw;
+    font-size: 5vh;
+}
+
+.logo {
+    margin-left: 2vw;
+    height: 10vh;
+    margin-right: 10vw;
+}
+
+nav {
+    margin: 0 0 0 auto;
+}
+nav a:visited{
+    color : #000000;
+}
+
+nav a:active{
+    color : #000000;
+}
+
+nav a:link{
+    color: #000000;
+}
+
+nav a{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    transition: .3s;
+}
+
+nav a::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: '';
+    width: 0;
+    height: 2.5px;
+    background-color: #000000;
+    transition: .3s;
+    transform: translateX(-50%);
+}
+
+nav a:hover::after{
+    width: 120%;
+}
