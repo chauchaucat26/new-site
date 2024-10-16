@@ -8,13 +8,17 @@
     margin-bottom: 2.5vh;
 }
 
+html {
+    background-color: #ffc000;
+}
+
 body {
     z-index: 999;
 }
 
 header {
     z-index: 1000;
-    background-color: aqua;
+    background-color: antiquewhite;
     width: 100vw;
     position: fixed;
     left: 0;
