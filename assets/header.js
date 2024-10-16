@@ -1,5 +1,5 @@
 function createheader() {
-    let url = "./assets/data/texts/header.txt";
+    let url = "./assets/texts/header.txt";
     fetch(url)
     .then(response => {
         if (!response.ok) {
