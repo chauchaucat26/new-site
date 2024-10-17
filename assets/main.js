@@ -10,7 +10,9 @@ function creat() {
         let currentTime = new Date().toLocaleString();
         localStorage.setItem(cathName, lsdata);
         localStorage.setItem(cathName + 'loadTime', currentTime);
+        let time = localStorage.getItem(cathName + 'loadTime');
         document.getElementById("main").innerHTML = lsdata;
+        document.getElementById("time").innerHTML = time;
     })
     .catch(error => {
         localStorage.setItem(cathName, error);
