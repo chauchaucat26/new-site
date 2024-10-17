@@ -6,6 +6,7 @@
     margin-right: 2vw;
     margin-top: 2.5vh;
     margin-bottom: 2.5vh;
+    z-index: 1001;
 }
 
 html {
