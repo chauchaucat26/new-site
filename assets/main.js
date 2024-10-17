@@ -1,7 +1,8 @@
 function creat() {
-  const currentPage = window.location.pathname.split('/').pop();
-  const pageName = currentPage.split('.')[0];
-  console.log(pageName)
+    let currentPage = window.location.pathname.split('/').pop();
+    let pageName = currentPage.split('.')[0];
+    console.log(currentPage)
+    console.log(pageName)
 }
 
 creat()
