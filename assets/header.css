@@ -80,3 +80,7 @@ nav a::after {
 nav a:hover::after{
     width: 120%;
 }
+
+main {
+    top: 17.5vh;
+}
