@@ -82,5 +82,5 @@ nav a:hover::after{
 }
 
 main {
-    top: 17.5vh;
+    margin-top: 17.5vh;
 }
