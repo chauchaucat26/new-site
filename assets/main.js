@@ -3,3 +3,5 @@ function creat() {
   const pageName = currentPage.split('.')[0];
   console.log(pageName)
 }
+
+creat()
